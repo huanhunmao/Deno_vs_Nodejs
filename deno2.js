@@ -13,3 +13,5 @@ if(food === 'love' && food === 'hate'){
     // deno run deno2.js 
     console.log('bad 🙅');
 }
+
+console.table(Deno.metrics()) // 已经废弃 本来可以 看在进行的一些 任务类型和数量
